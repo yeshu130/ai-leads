@@ -5,7 +5,7 @@ pipeline {
         
           stage('git checkout') {
                 steps {
-                    git branch: 'main', url: 'https://github.com/javahometech/ai-leads/'
+                    git branch: 'main', url: 'https://github.com/yeshu130/ai-leads/'
                 }
             }
             stage('maven build'){
